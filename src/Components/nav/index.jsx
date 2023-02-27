@@ -2,16 +2,20 @@
 import { Component } from "react";
 import { ButtonCart } from "../button-cart";
 import './style.css'
+import HomeImg from '../../imgs/home.png'
+import VideoImg from '../../imgs/video.png'
+import FairImg from '../../imgs/fair.png'
+import ProfileImg from '../../imgs/profile.png'
 
 export const Navbar = () => {
   return (
     <>
       <div className="upper-nav">
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">
-          <img src={process.env.PUBLIC_URL + "/home.png"} alt="" className="icon" />
+          <img src={HomeImg} alt="" className="icon" />
         </a>
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">
-          <img src={process.env.PUBLIC_URL + "/video.png"} alt="" className="icon" />
+          <img src={VideoImg} alt="" className="icon" />
         </a>
       </div>
       <div className="button-container">
@@ -21,11 +25,11 @@ export const Navbar = () => {
       </div>
 
       <div className="lower-nav">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">
-          <img src={process.env.PUBLIC_URL + "/fair.png"} alt="" className="icon" />
+        <a href="">
+          <img src={FairImg} alt="" className="icon" />
         </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">
-          <img src={process.env.PUBLIC_URL + "/profile.png"} alt="" className="icon" />
+        <a href="">
+          <img src={ProfileImg} alt="" className="icon" />
         </a>
       </div>
 

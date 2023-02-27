@@ -1,0 +1,16 @@
+.mainCard-container{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+.mainCard-container img{
+   width: 128px;
+   height: 128px;
+}
+
+.mainCard-container p{
+   background-color: brown;
+   height: 20%;
+
+ }

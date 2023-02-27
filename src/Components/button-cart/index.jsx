@@ -1,6 +1,6 @@
 import { Component } from "react";
 import './style.css'
-
+import CartImg from '../../imgs/cart.png'
 
 export const ButtonCart = () => {
     return (
@@ -8,7 +8,7 @@ export const ButtonCart = () => {
             <div className="main-circle">
                 <div className="inner-circle">
                     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">
-                        <img src={process.env.PUBLIC_URL + "/cart.png"} alt="" className="icon-cart" />
+                        <img src={CartImg} alt="" className="icon-cart" />
                     </a>
                 </div>
             </div>

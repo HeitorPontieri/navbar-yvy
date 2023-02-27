@@ -1,0 +1,26 @@
+.text-icon {
+    width: 12vw;
+    height: 12vh;
+ 
+}
+
+.sign-container {
+   margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.sign-up {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.2rem;
+}
+
+.sign-in {
+    background-color: #73A942;
+    font-size: 1.2rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px 0px;
+    color: white;
+}
