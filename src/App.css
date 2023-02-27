@@ -14,7 +14,8 @@
   border-radius:  0px 25px 25px 0px;
   display: flex;
   flex-direction: column;
-  height: 45vh;
+  align-items: center;
+  height: 75vh;
   width: 7.5vw;
   justify-content: space-evenly;
 }
