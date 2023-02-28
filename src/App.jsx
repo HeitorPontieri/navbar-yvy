@@ -15,11 +15,12 @@ function App() {
           <Navbar />
         </div>
 
-        <MainCard
+        <MainCard 
           id={1}
           name='Frutas'
-          img='https://cdn-icons-png.flaticon.com/512/5039/5039041.png'/>
+          img='https://cdn.pixabay.com/photo/2016/02/23/17/36/mango-1218147_960_720.png'/>
       </div>
+    
     </>
   );
 }

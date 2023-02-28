@@ -11,24 +11,22 @@ export const Navbar = () => {
   return (
     <>
       <div className="upper-nav">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">
+        <a href="#">
           <img src={HomeImg} alt="" className="icon" />
         </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">
+        <a href="#">
           <img src={VideoImg} alt="" className="icon" />
         </a>
       </div>
       <div className="button-container">
-
         <ButtonCart />
-
       </div>
 
       <div className="lower-nav">
-        <a href="">
+        <a href="#">
           <img src={FairImg} alt="" className="icon" />
         </a>
-        <a href="">
+        <a href="#">
           <img src={ProfileImg} alt="" className="icon" />
         </a>
       </div>

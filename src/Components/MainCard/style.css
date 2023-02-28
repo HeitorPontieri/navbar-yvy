@@ -1,16 +1,19 @@
-.mainCard-container{
+.mainCard-container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
     background-color: aqua;
+    height: 30vh;
 }
 
-.mainCard-container img{
-   width: 128px;
-   height: 128px;
+.mainCard-container img {
+    width: 256px;
+    height: 256px;
+    background-color: lawngreen;
 }
 
-.mainCard-container p{
-   background-color: brown;
-   height: 20%;
-
- }
+.mainCard-container p {
+    background-color: brown;
+    font-size: 2rem;
+}
